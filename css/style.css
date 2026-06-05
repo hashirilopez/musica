@@ -1,0 +1,142 @@
+#contenedor{
+	height: 1030px;
+	width: 97%;
+	background: pink;
+	border-radius: 1em;
+	margin: auto;
+	overflow: hidden;
+	padding: 15px;
+}
+#header{
+	height: 80px;
+	width: 100%;
+	background: yellow;
+	border-radius: 0em;
+	margin: auto;
+	font-size: 60px;
+	font-family: arial black;
+	text-align: center;
+}
+#contenido{
+	height: 41%;
+	width: 61%;
+	background: skyblue;
+	border-radius: 0em;
+	float: left;
+	margin: 0.5em;
+	text-align: center;
+	font-family: cursive;
+}
+#baners{
+	height: 20%;
+	width: 33%;
+	background: skyblue;
+	border-radius: 0em;
+	float: right;
+	margin: 0.5em;
+	text-align: center;
+}
+#enlaces{
+	height: 20%;
+	width: 34%;
+	background: hotpink;
+	border-radius: 0em;
+	float: right;
+	margin: 0.5em;
+	text-align: left;
+	font-size: 25px;
+}
+#nav{
+	height: 8%;
+	width: 1242px;
+	background: blueviolet;
+	margin: 0em;
+	display: flex;
+	font-size: 33px;
+	align-items: center;
+	border: 8px solid black;
+}
+#areacontenido{
+	height: 22%;
+	width: 99%;
+	background: violet;
+	border-radius: 1em;
+	margin: 0.5em;
+	text-align: center;
+}
+
+.menu ul{
+	padding: 1px;
+	display: flex;
+	align-items: auto;
+}
+.menu ul li {
+	display: block;
+	padding: 10px 20px;
+	color: black;
+	text-decoration: none;
+	transition: background 0.3s;
+}
+.menu ul li a{
+	display: inline-block;
+	padding: 9px 22px;
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 5px;
+}
+#footer{
+	height: 90px;
+	width: 96%;
+	background: #9D9290;
+	margin: 0.5em;
+	clear: both;
+	font-size: 40px;
+	text-align: center;
+	font-family: arial black;
+}
+.menu ul li:hover{
+	background-color: #A6A6ED;
+	border: 3px solid black;
+	outline: 2px solid;
+}
+#header:hover{
+	background-color: #A6A6ED;
+		border: 3px solid black;
+}
+
+#footer:hover{
+	background-color: #A6A6ED;
+		border: 3px solid black;
+}
+#baners:hover{
+	background-color: #A6A6ED;
+		border: 3px solid black;
+}
+#enlaces:hover{
+	background-color: #A6A6ED;
+		border: 3px solid black;
+}
+#areacontenido:hover{
+	background-color: #A6A6ED;
+		border: 3px solid black;
+}
+.imagen-oculta{
+	display: none;
+	position: absolute;
+	width: 150px;
+	height: 150PX;
+	border-radius: 8px;
+	z-index: 10;
+}
+.link-musica:hover .imagen-oculta{
+	display: block;
+
+}
+#enlaces a{
+	position: relative;
+	display: inline-block;
+	text-decoration: none;
+	margin-right: 2px;
+
+}
